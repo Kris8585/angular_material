@@ -18,6 +18,8 @@ import {MatTableModule} from '@angular/material/table';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatPaginatorModule } from '@angular/material';
 import {MatInputModule} from '@angular/material';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
 
 
 
@@ -44,7 +46,8 @@ import {MatInputModule} from '@angular/material';
     MatTableModule,
     MatFormFieldModule,
     MatPaginatorModule,
-    MatInputModule
+    MatInputModule,
+    NgxChartsModule
 
 
   ],
