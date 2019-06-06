@@ -24,7 +24,7 @@ export class PrincipalComponent implements OnInit {
   displayedColumns: string[] = ['Id', 'Nombre', 'Nota'];
   dataSource: MatTableDataSource<UserData>;
 
-  @ViewChild(MatPaginator,{static:false}) paginator: MatPaginator;
+  @ViewChild(MatPaginator,{static:true}) paginator: MatPaginator;
   @ViewChild(MatSort, {static:false}) sort: MatSort;
 
   constructor() {
